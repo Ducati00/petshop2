@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    background: url(./assets/images/sem\ fundo\ para\ colocar\ nome.jpg), linear-gradient(to bottom, turquoise, aqua);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-items: center;
+    padding: 25px;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  header nav ul li a {
+    text-decoration: none;
+  } 
+
+
+  
+
